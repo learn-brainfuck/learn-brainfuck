@@ -1,7 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f24a3fa-7d2f-4d37-a93d-b656a1e91e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/AsciiTable/AsciiTableContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/AsciiTable/AsciiTableTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/AsciiTable/AsciiTableUtils.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/AsciiTable/AsciiTableView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/AsciiTable/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Commands/CommandStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Commands/CommandsTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Commands/CommandsUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Commands/CommandsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Commands/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/HelpersContentStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/HelpersContentTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/HelpersContentUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/HelpersContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Sources/SourcesView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/Sources/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersContent/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersDialog/HelpersDialogStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersDialog/HelpersDialogView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/HelpersDialog/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/InterpreterActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/InterpreterContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/InterpreterSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/InterpreterTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/InterpreterUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Interpreter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/LessonActionsActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/LessonActionsContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/LessonActionsSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/LessonActionsStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/LessonActionsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonActions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCard/LessonCardStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCard/LessonCardView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/LessonCardStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/LessonCodeActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/LessonCodeContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/LessonCodeSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/LessonCodeView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonCode/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonContent/LessonContentStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonContent/LessonContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonContent/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/LessonInputActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/LessonInputContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/LessonInputSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/LessonInputStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/LessonInputView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonInput/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonOutput/LessonOutputContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonOutput/LessonOutputSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonOutput/LessonOutputStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonOutput/LessonOutputView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonOutput/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/LessonTapeContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/LessonTapeSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/LessonTapeStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/LessonTapeView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/TapeCard/TapeCardContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/TapeCard/TapeCardStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/TapeCard/TapeCardView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/TapeCard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/LessonTape/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Lesson/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LevelPaper/LevelPaperStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LevelPaper/LevelPaperView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LevelPaper/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/lessons/fundamentals/hello123.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/lessons/fundamentals/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/lessons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/levels.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Home/HomeStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Home/HomeView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Home/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Lesson/LessonContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Lesson/LessonStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Lesson/LessonView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Lesson/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Levels/LevelsStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Levels/LevelsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Levels/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/interpreter/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/interpreter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/interpreter/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/interpreter/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/findMatchingBracketIndex.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/useInterval.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZJQsGPLznBBEf4ZgzYrHf2TfDb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Lesson/LessonInterpreter" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="E:\Projekty\GitHub\learn-brainfuck\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Lesson\LessonInterpreter" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\screens\Lesson" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Lesson\LessonTape\TapeCard" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Lesson\LessonTape" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Lesson\LessonActions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Helpers" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\components\Lesson" />
+      <recent name="E:\Projekty\GitHub\learn-brainfuck\src\modules\Header" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f24a3fa-7d2f-4d37-a93d-b656a1e91e40" name="Default Changelist" comment="" />
+      <created>1584554922020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584554922020</updated>
+      <workItem from="1584554923425" duration="8930000" />
+      <workItem from="1584617539768" duration="16637000" />
+      <workItem from="1584697086655" duration="705000" />
+      <workItem from="1584737512032" duration="6844000" />
+      <workItem from="1584785615639" duration="604000" />
+      <workItem from="1584817196322" duration="16457000" />
+      <workItem from="1584875977430" duration="25575000" />
+      <workItem from="1584957507660" duration="19081000" />
+      <workItem from="1585052465637" duration="17317000" />
+      <workItem from="1585259059443" duration="766000" />
+      <workItem from="1585313729291" duration="1211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
